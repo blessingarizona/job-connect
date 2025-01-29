@@ -1,5 +1,6 @@
-const { useSession } = require("@clerk/clerk-react");
-const { useState } = require("react");
+
+import { useSession } from "@clerk/clerk-react";
+import { useState } from "react";
 
 const useFetch = (cb, options = {}) => {
      const [data, setData] = useState(undefined);

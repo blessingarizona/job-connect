@@ -16,7 +16,7 @@ const LandingPage = () => {
     </section>
     <div className="flex gap-6 justify-center">
       {/* buttons */}
-      <Link to="/job">
+      <Link to="/job/:id">
       <Button variant="blue" size="xl">Find Jobs</Button>
       </Link>
       <Link to="/post-job">
