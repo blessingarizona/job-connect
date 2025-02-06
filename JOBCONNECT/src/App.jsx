@@ -13,6 +13,7 @@ import { ThemeProvider } from './components/ui/theme-provider';
 import ProtectedRoute from './components/protected-route';
 
 
+
 const router = createBrowserRouter([
   {
     element:<AppLayout />,
